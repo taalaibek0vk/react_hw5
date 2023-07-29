@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+}
+
+.panel-light,
+.panel-dark {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.panel-light {
+  border: 2px solid black;
+  color: #222;
+  background: #fff;
+}
+
+.panel-dark {
+  border: 2px solid red;
+  color: #fff;
+  background: rgb(23, 32, 42);
+}
